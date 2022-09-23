@@ -28,7 +28,10 @@ public class UserData {
 	@Field
 	private String upassword;
 	@Field
-	private String uname;
+	private String firstName;
+
+	@Field
+	private String lastName;
 	private String authToken;
 	@Field
 	private String urole;
